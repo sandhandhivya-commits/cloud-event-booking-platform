@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/EventService.API/EventService.API.csproj" />
+  <Project Path="src/EventService.Application/EventService.Application.csproj" />
+  <Project Path="src/EventService.Domain/EventService.Domain.csproj" Id="4cc3c96a-a72d-451d-a82a-ba079e44afee" />
+  <Project Path="src/EventService.Infrastructure/EventService.Infrastructure.csproj" Id="a91cef8d-de3f-4f6f-a02e-41f6fd1d9495" />
+</Solution>
