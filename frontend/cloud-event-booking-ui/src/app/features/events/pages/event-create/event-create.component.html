@@ -1,0 +1,27 @@
+<button (click)="createEvent()">Create Event</button>
+
+<form (ngSubmit)="createEvent()">
+
+  <div>
+    <label>Name</label>
+    <input type="text" [(ngModel)]="event.name" name="name">
+  </div>
+
+  <div>
+    <label>Description</label>
+    <input type="text" [(ngModel)]="event.description" name="description">
+  </div>
+
+  <div>
+    <label>Location</label>
+    <input type="text" [(ngModel)]="event.location" name="location">
+  </div>
+
+  <div>
+    <label>Date</label>
+    <input type="date" [(ngModel)]="event.date" name="date">
+  </div>
+
+  <button type="submit">Create</button>
+
+</form>
